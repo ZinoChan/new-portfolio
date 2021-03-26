@@ -1,4 +1,6 @@
-import '@styles/globals.css'
+import '@styles/globals.css';
+import '@fontsource/oswald'
+import '@fontsource/montserrat'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
