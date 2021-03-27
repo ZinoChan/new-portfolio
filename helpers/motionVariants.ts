@@ -51,16 +51,17 @@ export const slideToleft = {
 }
 
 export const parentVariants = {
-    visible: {
+    visible:(i=0.1) => ({
         opacity: 1,
         
         transition: {
             ease: "easeInOut",
             duration: .4,
             when: "beforeChildren",
+            delay: i,
       staggerChildren: 0.3,
         }
-    },
+    }),
     hidden: { opacity: 0,  transition: {
         when: "afterChildren",
       },}

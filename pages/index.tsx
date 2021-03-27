@@ -1,7 +1,7 @@
 import { faFacebookF, faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import styles from '@styles/Home.module.scss'
+import styles from '@styles/utils.module.scss'
 import { motion } from "framer-motion";
 import { parentVariants, slideToleft, slideToRight, childSlide } from "@helpers/motionVariants"
 
@@ -27,7 +27,7 @@ export default function Home() {
          animate="visible"
          variants={slideToRight}   
          custom={1}     
-         className={`${styles.btn} relative overflow-hidden text-white border-2 border-primary md:px-6 px-4 py-2 font-sans capitalize font-black text-md`}>
+         className={`${styles.btn} relative overflow-hidden text-white border-2 border-primary  px-4 py-2 font-sans capitalize font-black text-md`}>
          <span className="relative z-20"> View my work <FontAwesomeIcon className="ml-2" icon={faLongArrowAltRight} /> </span>
           
         </motion.button>
