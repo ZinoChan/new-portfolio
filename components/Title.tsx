@@ -9,11 +9,11 @@ const Title = ({title, text = ""}) => {
         initial="hidden"
         animate="visible"
         variants={parentVariants}
-       className="mb-16">
+       className="mb-16 relative z-20">
            <motion.h2
            custom={-100}
           variants={childSlide}
-           className=" relative  mb-4 text-6xl text-primary font-bold font-oswald uppercase">
+           className=" mb-2 md:text-6xl text-4xl text-primary font-bold font-main uppercase">
               {title}
            </motion.h2>
           {

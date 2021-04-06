@@ -9,13 +9,16 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                oswald: ['Oswald', ...defaultTheme.fontFamily.sans],
-                sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
+                main: ['Josefin Sans', ...defaultTheme.fontFamily.sans],
+                sans: ['Poppins', ...defaultTheme.fontFamily.sans],
             },
 
             colors: {
-                primary: '#009EED',
-               
+                primary: "#52EAE0",
+                secondary: "#EA525C",
+                dark: "#191C1D",
+                "dark-gray": "#272A2A"
+              
             },
         },
     },

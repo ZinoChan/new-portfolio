@@ -1,6 +1,6 @@
 import '@styles/globals.css';
-import '@fontsource/oswald'
-import '@fontsource/montserrat'
+import '@fontsource/poppins'
+import '@fontsource/josefin-sans';
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

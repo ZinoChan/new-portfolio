@@ -8,8 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fontsource/josefin-sans": "^4.2.2",
     "@fontsource/montserrat": "^4.2.2",
     "@fontsource/oswald": "^4.2.2",
+    "@fontsource/poppins": "^4.2.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
@@ -20,6 +22,7 @@
     "postcss": "^8.2.8",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-tsparticles": "^1.24.2",
     "sass": "^1.32.8",
     "tailwindcss": "^2.0.4"
   },
