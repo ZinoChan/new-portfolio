@@ -5,8 +5,9 @@ import styles from '@styles/utils.module.scss'
 import { motion } from "framer-motion";
 import { parentVariants, slideToleft, slideToRight, childSlide, slideUp } from "@helpers/motionVariants"
 import Link from 'next/link'
+
+import Galaxy from "@components/Galaxy";
 import Image from 'next/image'
-import galaxy from '@styles/galaxy.module.scss';
 
 export default function Home() {
  
@@ -16,8 +17,7 @@ export default function Home() {
    
     
     <section style={{maxWidth: 1800}} className="overflow-hidden py-20 relative z-20 min-h-screen mx-auto flex items-center bg-center  bg-cover overflow-x-hidden">
-    <div className={`${galaxy.stars}`}></div>
-      <div className={`${galaxy.twinkling}`}></div>  
+    <Galaxy/>
      
       <div className="relative z-20 max-w-screen-2xl px-6 mx-auto w-full">
      
@@ -25,19 +25,14 @@ export default function Home() {
         initial="hidden"
         animate="visible"
         variants={parentVariants}
-        className=" xl:text-7xl text-white lg:text-9xl md:text-6xl text-4xl  font-main font-bold uppercase leading-normal">
+        className=" xl:text-7xl text-white lg:text-9xl md:text-6xl text-4xl mb-4 font-main font-bold uppercase xl:leading-normal 2xl:leading-normal lg:leading-normal leading-normal md:leading-normal">
           <motion.p variants={childSlide}>Web</motion.p>
           <motion.p variants={childSlide} >Developer</motion.p>
           <motion.p variants={childSlide}> 
             UI Designer
           </motion.p>
         </motion.h1>
-        <motion.p 
-        initial="hidden"
-        animate="visible"
-        variants={slideToRight}  
-        custom={.8}
-        className="text-md font-bold font-sans text-secondary mb-6">Front-end Reactjs developer</motion.p>
+       
         <motion.button
          initial="hidden"
          animate="visible"
@@ -57,7 +52,7 @@ export default function Home() {
         className="xl:absolute xl:-right-20   xl:-bottom-48  z-20 xl:mt-0 mt-10">
         <Image
         className=""
-          src="/galaxy.png"
+          src="/laptop.png"
           width={860}
           height={630}
         />

@@ -1,0 +1,75 @@
+.planet {
+  position: absolute;
+  z-index: 20;
+
+  &.planet_1 {
+    animation: float1 2s linear infinite;
+  }
+  &.planet_2 {
+    animation: float2 2.5s linear infinite;
+  }
+  &.planet_3 {
+    animation: float3 1.5s linear infinite;
+  }
+  &.planet_4 {
+    animation: float4 2.6s linear infinite;
+  }
+  &.planet_5 {
+    animation: float1 2.3s linear infinite;
+  }
+  &.planet_6 {
+    animation: float3 2.3s linear infinite;
+  }
+  &.planet_7 {
+    animation: float4 3s linear infinite;
+  }
+  &.planet_8 {
+    animation: float1 2.7s linear infinite;
+  }
+}
+
+@keyframes float1 {
+  0% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes float2 {
+  0% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes float3 {
+  0% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes float4 {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  60% {
+    transform: translateY(25px) translateX(12px);
+  }
+  100% {
+    transform: translateY(0px) translateX(0);
+  }
+}

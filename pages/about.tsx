@@ -1,5 +1,4 @@
 
-import Sphere from "@components/Sphere"
 import Title from "@components/Title"
 import { childSlide, parentVariants } from "@helpers/motionVariants"
 import { motion } from "framer-motion"
@@ -10,7 +9,7 @@ const About = () => {
     
     return (
         <>
-       <section className="relative min-h-screen  bg-cover bg-center bg-black py-32 flex items-center overflow-x-hidden" style={{backgroundImage: "url(/about-img.jpg)"}}>
+       <section className="relative min-h-screen   py-32 flex items-center overflow-x-hidden">
        <div className={`${galaxy.stars}`}></div>
       <div className={`${galaxy.twinkling}`}></div>  
            <div className="max-w-screen-2xl mx-auto px-6 w-full">
