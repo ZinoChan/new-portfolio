@@ -16,7 +16,7 @@ export default function Home() {
     <>
    
     
-    <section style={{maxWidth: 1800}} className="overflow-hidden py-20 relative z-20 min-h-screen mx-auto flex items-center bg-center  bg-cover overflow-x-hidden">
+    <section style={{maxWidth: 2000}} className="overflow-hidden py-32 relative z-20 min-h-screen mx-auto flex items-center bg-center  bg-cover overflow-x-hidden">
     <Galaxy/>
      
       <div className="relative z-20 max-w-screen-2xl px-6 mx-auto w-full">
